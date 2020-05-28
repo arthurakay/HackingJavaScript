@@ -32,3 +32,10 @@ Note that we're requesting a resource from `arthurakay.com` but we're granting n
     deno run --allow-net=www.akawebdesign.com third-party.ts
 
 
+4) An express server example: Based on Adrian Twarog's video:
+
+  * https://www.youtube.com/watch?v=OktBhNexnhY
+  * https://github.com/NMathar/deno-express/
+
+
+    deno run --allow-net --allow-read express.ts
